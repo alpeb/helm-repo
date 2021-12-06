@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   linkerd-base:
   - apiVersion: v2
-    created: "2021-12-06T11:44:16.486088186-05:00"
+    created: "2021-12-06T12:37:56.697132322-05:00"
     dependencies:
     - name: partials
       repository: file://../partials
@@ -10,7 +10,7 @@ entries:
     description: |
       Linkerd gives you observability, reliability, and security
       for your microservices — with no code change required.
-    digest: 054db71f23441224b538ad53a88bb8ebd04c0cb59afd60ba0f0b1733a91594dc
+    digest: 7fde5730cb6c8eac762e46ab3f25468966379c2164a80f57e9bd3e3c9d1d6b6c
     home: https://linkerd.io
     icon: https://linkerd.io/images/logo-only-200h.png
     keywords:
@@ -25,12 +25,12 @@ entries:
     - https://github.com/linkerd/linkerd2/
     type: application
     urls:
-    - https://helm.linkerd.io/stable/linkerd-base-1.0.0.tgz
+    - https://alpeb.github.io/helm-repo/linkerd-base-1.0.0.tgz
     version: 1.0.0
   linkerd-control-plane:
   - apiVersion: v2
     appVersion: stable-2.12.0
-    created: "2021-12-06T11:44:16.487147254-05:00"
+    created: "2021-12-06T12:37:56.701539454-05:00"
     dependencies:
     - name: partials
       repository: file://../partials
@@ -38,7 +38,7 @@ entries:
     description: |
       Linkerd gives you observability, reliability, and security
       for your microservices — with no code change required.
-    digest: cca3095e3bb2d929c87e32d4d4445949f8b9a2fbfb9bd04469d797485fe2646d
+    digest: 704b7de783dd46639a278c7e7fca6462dbfc3ca4ece6d3b1c3af5fdd6ab9ace2
     home: https://linkerd.io
     icon: https://linkerd.io/images/logo-only-200h.png
     keywords:
@@ -53,12 +53,12 @@ entries:
     - https://github.com/linkerd/linkerd2/
     type: application
     urls:
-    - https://helm.linkerd.io/stable/linkerd-control-plane-2.12.0.tgz
+    - https://alpeb.github.io/helm-repo/linkerd-control-plane-2.12.0.tgz
     version: 2.12.0
   linkerd-jaeger:
   - apiVersion: v1
     appVersion: stable-2.12.0
-    created: "2021-12-06T11:44:16.488430145-05:00"
+    created: "2021-12-06T12:37:56.702864342-05:00"
     dependencies:
     - name: partials
       repository: file://../../../charts/partials
@@ -66,7 +66,7 @@ entries:
     description: |
       The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
       OpenCensus and Jaeger.
-    digest: 9226a964b68b7ac16e6897101842ca744bb0ecfc1cf2c9b4894cb71779a21bb5
+    digest: 2bfe474f4600510e0891d4b286cde97f0b26d2ea8bf2eab7cdc53c57403428bd
     home: https://linkerd.io
     icon: https://linkerd.io/images/logo-only-200h.png
     keywords:
@@ -215,7 +215,7 @@ entries:
   linkerd-multicluster:
   - apiVersion: v1
     appVersion: stable-2.12.0
-    created: "2021-12-06T11:44:16.489176183-05:00"
+    created: "2021-12-06T12:37:56.70369694-05:00"
     dependencies:
     - name: partials
       repository: file://../../../charts/partials
@@ -223,7 +223,7 @@ entries:
     description: |
       The Linkerd-Multicluster extension contains resources to support multicluster
       linking to remote clusters
-    digest: d8596bf50f0f2538f6fc064ed3296045b9b4e0c1fab2bf9cecac4d2fc1ee7238
+    digest: 20202f40d04c46fbaf2240430744d9d9db2f5b5bed27c0b53ab230c5ad8f9584
     home: https://linkerd.io
     icon: https://linkerd.io/images/logo-only-200h.png
     keywords:
@@ -372,7 +372,7 @@ entries:
   linkerd-viz:
   - apiVersion: v1
     appVersion: stable-2.12.0
-    created: "2021-12-06T11:44:16.490489264-05:00"
+    created: "2021-12-06T12:37:56.706108711-05:00"
     dependencies:
     - name: partials
       repository: file://../../../charts/partials
@@ -380,7 +380,7 @@ entries:
     description: |
       The Linkerd-Viz extension contains observability and visualization
       components for Linkerd.
-    digest: acd899a317f7c5f7a79a3eb2b52ae36c781469a0e18782c2adae6c1c47a245c8
+    digest: 1e1aa8b9fc5f044d420341296c2c23cf46d2c2f79ea9531149637cd4ed7c411a
     home: https://linkerd.io
     icon: https://linkerd.io/images/logo-only-200h.png
     keywords:
@@ -1011,7 +1011,7 @@ entries:
   linkerd2-cni:
   - apiVersion: v1
     appVersion: stable-2.12.0
-    created: "2021-12-06T11:44:16.491002113-05:00"
+    created: "2021-12-06T12:37:56.707128003-05:00"
     dependencies:
     - name: partials
       repository: file://../partials
@@ -1022,7 +1022,7 @@ entries:
       Linkerd [CNI plugin](https://linkerd.io/2/features/cni/) takes care of setting
       up your pod's network so  incoming and outgoing traffic is proxied through the
       data plane.
-    digest: 1bf8c8510ddc14a9cfecd0754a59fd63fb1a80a8c6169cae5bd687dfccf472e6
+    digest: bb3bfb999521810fd9a533d14a765d04244b481e1040a21f299c576830bd9a77
     icon: https://linkerd.io/images/logo-only-200h.png
     kubeVersion: '>=1.20.0-0'
     name: linkerd2-cni
@@ -1417,4 +1417,4 @@ entries:
     urls:
     - https://helm.linkerd.io/stable/linkerd2-multicluster-link-2.9.2.tgz
     version: 2.9.2
-generated: "2021-12-06T11:44:16.485136901-05:00"
+generated: "2021-12-06T12:37:56.695598136-05:00"
