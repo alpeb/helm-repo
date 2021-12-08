@@ -155,7 +155,7 @@ entries:
     - https://github.com/linkerd/linkerd2/
     type: application
     urls:
-    - https://helm.linkerd.io/edge/linkerd-control-plane-1.0.0-edge.tgz
+    - https://alpeb.github.io/helm-repo/linkerd-control-plane-1.0.0-edge.tgz
     version: 1.0.0-edge
   linkerd-crds:
   - apiVersion: v2
@@ -182,7 +182,7 @@ entries:
     - https://github.com/linkerd/linkerd2/
     type: application
     urls:
-    - https://helm.linkerd.io/edge/linkerd-crds-1.0.0-edge.tgz
+    - https://alpeb.github.io/helm-repo/linkerd-crds-1.0.0-edge.tgz
     version: 1.0.0-edge
   linkerd-jaeger:
   - apiVersion: v1
