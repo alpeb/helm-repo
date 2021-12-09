@@ -132,7 +132,7 @@ entries:
   linkerd-control-plane:
   - apiVersion: v2
     appVersion: edge-21.12.2
-    created: "2021-12-08T18:25:50.956278665-05:00"
+    created: "2021-12-09T09:27:34.974569766-05:00"
     dependencies:
     - name: partials
       repository: file://../partials
@@ -140,7 +140,7 @@ entries:
     description: |
       Linkerd gives you observability, reliability, and security
       for your microservices — with no code change required.
-    digest: cb064ed85c710dfcbfe87e7e5dd167d7d28157382b6917c5d71d0c9e520a0c01
+    digest: 6bd0ee7c895d92ddcdb90bd37327492c8710506e695fb41d2ab778f8b9d44568
     home: https://linkerd.io
     icon: https://linkerd.io/images/logo-only-200h.png
     keywords:
@@ -159,7 +159,7 @@ entries:
     version: 1.0.0-edge
   linkerd-crds:
   - apiVersion: v2
-    created: "2021-12-08T18:25:50.958071061-05:00"
+    created: "2021-12-09T09:27:34.975125369-05:00"
     dependencies:
     - name: partials
       repository: file://../partials
@@ -167,7 +167,7 @@ entries:
     description: |
       Linkerd gives you observability, reliability, and security
       for your microservices — with no code change required.
-    digest: 562c3d4baa0b3651c249594e64e51d8ec79451f251566ece7dc421193f6d60bc
+    digest: 45c94af3def0c159b20bcce378ec29755ae2c2bf27a73a79440bc69e9c657103
     home: https://linkerd.io
     icon: https://linkerd.io/images/logo-only-200h.png
     keywords:
@@ -187,7 +187,7 @@ entries:
   linkerd-jaeger:
   - apiVersion: v1
     appVersion: edge-21.12.2
-    created: "2021-12-08T18:25:50.960603015-05:00"
+    created: "2021-12-09T09:27:34.975949593-05:00"
     dependencies:
     - name: partials
       repository: file://../../../charts/partials
@@ -195,7 +195,7 @@ entries:
     description: |
       The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
       OpenCensus and Jaeger.
-    digest: ff4199ef9d7a6e772ac99db1a489bd798035fcbe4fed3d99dccdfd50d3018bf4
+    digest: 9e8a9dd9f98efbd1a99fb20208472d917b1ac07241527db1fc97b66c19c86359
     home: https://linkerd.io
     icon: https://linkerd.io/images/logo-only-200h.png
     keywords:
@@ -1332,7 +1332,7 @@ entries:
   linkerd-multicluster:
   - apiVersion: v1
     appVersion: edge-21.12.2
-    created: "2021-12-08T18:25:50.962866325-05:00"
+    created: "2021-12-09T09:27:34.976635057-05:00"
     dependencies:
     - name: partials
       repository: file://../../../charts/partials
@@ -1340,7 +1340,7 @@ entries:
     description: |
       The Linkerd-Multicluster extension contains resources to support multicluster
       linking to remote clusters
-    digest: c2b778b09e366765d64393a6322d12a717a3e5bbd9496ffc75258c68a73401b8
+    digest: 14e1cc809020bc9be3a52600421856a6a4b3a8545c6be318a0a4ce7518122083
     home: https://linkerd.io
     icon: https://linkerd.io/images/logo-only-200h.png
     keywords:
@@ -2461,7 +2461,7 @@ entries:
   linkerd-viz:
   - apiVersion: v1
     appVersion: edge-21.12.2
-    created: "2021-12-08T18:25:50.973197106-05:00"
+    created: "2021-12-09T09:27:34.978094482-05:00"
     dependencies:
     - name: partials
       repository: file://../../../charts/partials
@@ -2469,7 +2469,7 @@ entries:
     description: |
       The Linkerd-Viz extension contains observability and visualization
       components for Linkerd.
-    digest: b06d39488ffd0f032a584d67a9fa93dd179cc76aa74c19f5cb6bb2ba503ab740
+    digest: f8f0ff80f42ad154362614cee07a97d20d98f332862e08cf55ddde19d8405336
     home: https://linkerd.io
     icon: https://linkerd.io/images/logo-only-200h.png
     keywords:
@@ -6690,7 +6690,7 @@ entries:
   linkerd2-cni:
   - apiVersion: v1
     appVersion: edge-21.12.2
-    created: "2021-12-08T18:25:50.974775937-05:00"
+    created: "2021-12-09T09:27:34.978665824-05:00"
     dependencies:
     - name: partials
       repository: file://../partials
@@ -6701,7 +6701,7 @@ entries:
       Linkerd [CNI plugin](https://linkerd.io/2/features/cni/) takes care of setting
       up your pod's network so  incoming and outgoing traffic is proxied through the
       data plane.
-    digest: cc9beeada21a769d5e67b2e9e2fe31064613b6fd303cee32e25743dbb04d97da
+    digest: ee4a1a178a52a23decb21d7bf32e8942f90aed9c5305db7f01fdf18043daf309
     icon: https://linkerd.io/images/logo-only-200h.png
     kubeVersion: '>=1.20.0-0'
     name: linkerd2-cni
@@ -8778,4 +8778,4 @@ entries:
     urls:
     - https://helm.linkerd.io/edge/linkerd2-multicluster-20.5.5.tgz
     version: 20.5.5
-generated: "2021-12-08T18:25:50.9496213-05:00"
+generated: "2021-12-09T09:27:34.972495929-05:00"
