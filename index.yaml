@@ -261,6 +261,1202 @@ entries:
     version: 1.0.0-edge
   linkerd-jaeger:
   - apiVersion: v1
+    appVersion: edge-21.12.4
+    created: "2021-12-23T20:03:32.642408236Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: e28bb0be1bf03df6a89eefeb25a065629a2049a5ac4bedfedfab49c776927fea
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.20.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.12.4.tgz
+    version: 21.12.4
+  - apiVersion: v1
+    appVersion: edge-21.12.3
+    created: "2021-12-17T12:58:59.730357605Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 084a984b5e86bfcf03a0d3481ef9f5456fd63f8781c66aa57176947d6a913dba
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.20.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.12.3.tgz
+    version: 21.12.3
+  - apiVersion: v1
+    appVersion: edge-21.12.2
+    created: "2021-12-09T20:44:12.308117486Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: f99bc84f155c9ec566eb8ebdc8817af005e7fe67ad57d23931f04a4f7a2a671e
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.20.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.12.2.tgz
+    version: 21.12.2
+  - apiVersion: v1
+    appVersion: edge-21.12.1
+    created: "2021-12-02T22:00:13.404460771Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: b43c87115e690fa99af241ba19623c31e32e030b837cba22325f22384317ad02
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.20.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.12.1.tgz
+    version: 21.12.1
+  - apiVersion: v1
+    appVersion: edge-21.11.4
+    created: "2021-11-25T19:35:03.762557498Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 2f188152b06712496e6eae52abe2ffbaa046871d49c7bd78561f68326828a1b6
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.20.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.11.4.tgz
+    version: 21.11.4
+  - apiVersion: v1
+    appVersion: edge-21.11.3
+    created: "2021-11-18T20:23:11.070190607Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: f802ee442d41810a7a8b60d22401164d137f5f00441c2d1b0016fe6aac5d91d4
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.20.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.11.3.tgz
+    version: 21.11.3
+  - apiVersion: v1
+    appVersion: edge-21.11.2
+    created: "2021-11-12T03:13:12.063965327Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 69004680f9f716c114341892ff0e2c786e5f29d2cbeee737ca5f60ba5f3fe28d
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.20.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.11.2.tgz
+    version: 21.11.2
+  - apiVersion: v1
+    appVersion: edge-21.11.1
+    created: "2021-11-05T11:47:08.076294377Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 369dc2e93359cd8e5674fdc789b0798448a51ce5e4c976acc7621d09b7d7acf3
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.20.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.11.1.tgz
+    version: 21.11.1
+  - apiVersion: v1
+    appVersion: edge-21.10.3
+    created: "2021-10-21T20:01:06.553459317Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: fe916e25d64df5629466dc41c43b1e6093043663e91ac787af234be13716f7e6
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.10.3.tgz
+    version: 21.10.3
+  - apiVersion: v1
+    appVersion: edge-21.10.2
+    created: "2021-10-15T22:21:43.605246086Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 2c6a868a4d21893cccace852f7b9f2b3358b2e5b8b585c84ed5fe116067b2a28
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.10.2.tgz
+    version: 21.10.2
+  - apiVersion: v1
+    appVersion: edge-21.10.1
+    created: "2021-10-07T19:23:25.80556394Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 023d6f84bf6dacc49333520cc9e6eab318385cbf484f5063a1f989f3f2481697
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.10.1.tgz
+    version: 21.10.1
+  - apiVersion: v1
+    appVersion: edge-21.9.5
+    created: "2021-09-29T21:31:32.704658696Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 664f16debb72dce5c6084cafb055cb6945b8cc5be9e085249ef7424933160bfc
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.9.5.tgz
+    version: 21.9.5
+  - apiVersion: v1
+    appVersion: edge-21.9.4
+    created: "2021-09-24T18:35:18.883961224Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 002e81416ce489f243424728896458c6e66daf9baa87087b3bc28c6f94ae7e38
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.9.4.tgz
+    version: 21.9.4
+  - apiVersion: v1
+    appVersion: edge-21.9.3
+    created: "2021-09-16T22:39:16.29352622Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 18961166619da77f1ddca11b957b38a36d0b99c7c7be043536017890d72a194c
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.9.3.tgz
+    version: 21.9.3
+  - apiVersion: v1
+    appVersion: edge-21.9.2
+    created: "2021-09-09T22:58:55.343908606Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 570d3d80dd1bfbb67b8b87fcb295be4fccc54c74af2fda1397c76048e1ad5468
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.9.2.tgz
+    version: 21.9.2
+  - apiVersion: v1
+    appVersion: edge-21.9.1
+    created: "2021-09-03T17:40:36.515460968Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 34a68bb1b791b219fcac06386d8d8daeb38de151987d76612730abddd1cde992
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.9.1.tgz
+    version: 21.9.1
+  - apiVersion: v1
+    appVersion: edge-21.8.4
+    created: "2021-08-26T22:57:13.777440412Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 4b8346d1ffe0864acaa7439058d079d6d0e9ef759865f049045a967d5eddd999
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.8.4.tgz
+    version: 21.8.4
+  - apiVersion: v1
+    appVersion: edge-21.8.3
+    created: "2021-08-19T23:14:59.757063026Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: b01b83012d0697c33359eebc649359451df99b3b80bdd8f5b74efe72c3fa743d
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.8.3.tgz
+    version: 21.8.3
+  - apiVersion: v1
+    appVersion: edge-21.8.2
+    created: "2021-08-13T17:37:46.761957083Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: bab24e3336959eab2ce5128926c2f0be2cb5081f95d2e1bb7668877138fc5ccf
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.8.2.tgz
+    version: 21.8.2
+  - apiVersion: v1
+    appVersion: edge-21.8.1
+    created: "2021-08-05T20:23:16.321131434Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 04c1f2b0b359c9ec68e902f4f8fb87dd5490269e52cb3a2cf13ec515280a3da3
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.8.1.tgz
+    version: 21.8.1
+  - apiVersion: v1
+    appVersion: edge-21.7.5
+    created: "2021-07-30T11:05:15.304094-07:00"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 8c851eb56f42dd163619f6ddc1d9c03283f2297f19bb8451f5e2561cb82a5961
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.7.5.tgz
+    version: 21.7.5
+  - apiVersion: v1
+    appVersion: edge-21.7.4
+    created: "2021-07-22T20:15:59.768696476Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 8c69ee25cdeb00f2b361ec38177b4d09b49574766e1e4ee279f4f38af5592824
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.7.4.tgz
+    version: 21.7.4
+  - apiVersion: v1
+    appVersion: edge-21.7.3
+    created: "2021-07-15T21:53:45.095564184Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: cc388022a7b8d1ea31751cd133a0b96dc5a6ac45adfb8dbe33414d1c3d722750
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.7.3.tgz
+    version: 21.7.3
+  - apiVersion: v1
+    appVersion: edge-21.7.2
+    created: "2021-07-09T00:24:48.174616399Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: f4bcd50784fae871a4e3a705256437974fcc79f44286a9cf5e8681216e0b53c0
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.7.2.tgz
+    version: 21.7.2
+  - apiVersion: v1
+    appVersion: edge-21.7.1
+    created: "2021-07-01T18:14:12.681646082Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 3b7e75c76c01ec7c6f3ca6fcc47d221125d675085e11080d706ef94b820e8228
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.7.1.tgz
+    version: 21.7.1
+  - apiVersion: v1
+    appVersion: edge-21.6.5
+    created: "2021-06-24T23:48:08.595503073Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: b8f517e771d04cfea196e5dba8e1ff8002888725ae9725ba95e8e8e08f03d335
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.6.5.tgz
+    version: 21.6.5
+  - apiVersion: v1
+    appVersion: edge-21.6.3
+    created: "2021-06-17T21:32:53.322445246Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 4756b47929956a036ebdb9061e9e034ae97fc1a24344fd7643251df8c9768c94
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.6.3.tgz
+    version: 21.6.3
+  - apiVersion: v1
+    appVersion: edge-21.6.2
+    created: "2021-06-10T18:00:45.592371959Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 4236cfe263dfb88a30ed6335b14aa27c065c363e4dafae4a490f4a9e74e841f3
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.6.2.tgz
+    version: 21.6.2
+  - apiVersion: v1
+    appVersion: edge-21.6.1
+    created: "2021-06-04T00:10:48.645548889Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 431b6b02c603134aa1d6fd1e44994c01e1e8330ea936cd4499f71a8e32af31a9
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.6.1.tgz
+    version: 21.6.1
+  - apiVersion: v1
+    appVersion: edge-21.5.3
+    created: "2021-05-27T19:54:15.431689073Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 3a1bdd04eb8a361f0f60b2b7a9894711884511a575eb42a465bca99a1b763790
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.5.3.tgz
+    version: 21.5.3
+  - apiVersion: v1
+    appVersion: edge-21.5.2
+    created: "2021-05-21T00:30:29.827622575Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: ae4b94197e6b3139db07adc2d3690df67a9f528930f3df54f395bc5925c21ba3
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.5.2.tgz
+    version: 21.5.2
+  - apiVersion: v1
+    appVersion: edge-21.5.1
+    created: "2021-05-17T22:49:30.267438482Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 22fbedd62973caee622fbbb8f17892a8bf55a4817363883fe7a6a47e055f60ca
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.5.1.tgz
+    version: 21.5.1
+  - apiVersion: v1
+    appVersion: edge-21.4.5
+    created: "2021-04-29T19:03:52.214005113Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 96c5033076dac9ee33b94cc0f18914af699c15e8276671f598be8e3d07b2e284
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.4.5.tgz
+    version: 21.4.5
+  - apiVersion: v1
+    appVersion: edge-21.4.4
+    created: "2021-04-26T19:47:59.266652798Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: ca955e804a8b91e686c82eef18acff74063ac69cdff0fbc24e2dc9c427d60608
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.4.4.tgz
+    version: 21.4.4
+  - apiVersion: v1
+    appVersion: edge-21.4.3
+    created: "2021-04-12T18:44:01.61490994Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 73bba66d8ec98f15e1b64e15e34fef80531a71b0ba1d1fbd8700a0dbeba2ae3d
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.4.3.tgz
+    version: 21.4.3
+  - apiVersion: v1
+    appVersion: edge-21.4.2
+    created: "2021-04-08T18:20:23.096692475Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 9713972c56fc229d9632cea82931d7ccb85c3f6842ca8961509a9eea80d0196f
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.4.2.tgz
+    version: 21.4.2
+  - apiVersion: v1
+    appVersion: edge-21.4.1
+    created: "2021-04-01T20:42:33.141854209Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: b78b2e9ebfaff386d6683cfb684c0ef46b9277a90fcdb42e63487d8dd35b9683
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.4.1.tgz
+    version: 21.4.1
+  - apiVersion: v1
+    appVersion: edge-21.3.4
+    created: "2021-03-25T07:08:40.260250389Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 821e5c3965598c6b5805c7486e0e014f4eafea80e6e37026bf9b09a4128aa6fd
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.3.4.tgz
+    version: 21.3.4
+  - apiVersion: v1
+    appVersion: edge-21.3.3
+    created: "2021-03-18T22:49:33.829325342Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 6dc8b8603b2c8b9c2876f10790e9455a7fe8fdbafca695c1d9717091c50552ba
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.3.3.tgz
+    version: 21.3.3
+  - apiVersion: v1
+    appVersion: edge-21.3.2
+    created: "2021-03-09T22:42:25.831928312Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: de5ab3af80491123907669a6b58142049b90307f938dff82d899c786a59f2bda
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.3.2.tgz
+    version: 21.3.2
+  - apiVersion: v1
+    appVersion: edge-21.3.1
+    created: "2021-03-03T02:48:22.033037072Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: c829fbc8f0d49637dcf5ef90b9446a4961bea1954271c415de924e873e7e2a5a
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.3.1.tgz
+    version: 21.3.1
+  - apiVersion: v1
+    appVersion: edge-21.2.4
+    created: "2021-02-26T19:47:48.706681874Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 6460eba16e439863bad1fd0d64c85e5a36855a270ab7ec4cd99dda77931e3b8f
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.2.4.tgz
+    version: 21.2.4
+  - apiVersion: v1
+    appVersion: edge-21.2.3
+    created: "2021-02-19T02:55:03.690853786Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: f70df5cffdc4728aecadef0f5f68171d36912647db58fff9ca9344c4627776db
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.2.3.tgz
+    version: 21.2.3
+  - apiVersion: v1
+    appVersion: edge-21.2.2
+    created: "2021-02-11T23:31:13.82604722Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: e5f9fa68cf810c33ac2d3b2d0ee21b052dc14c75fc647cbb3f3e1dcd4b001606
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.13.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.2.2.tgz
+    version: 21.2.2
+  - apiVersion: v1
+    appVersion: edge-21.2.1
+    created: "2021-02-04T21:23:23.756585036Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: e1cbce277c4455aac690c3f208ec161dbed4dadd94ae1ef791e931cb1614c54c
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.13.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.2.1.tgz
+    version: 21.2.1
+  - apiVersion: v1
+    appVersion: edge-21.1.4
+    created: "2021-01-28T22:54:00.700362547Z"
+    dependencies:
+    - name: partials
+      repository: file://../../../charts/partials
+      version: 0.1.0
+    description: |
+      The Linkerd-Jaeger extension adds distributed tracing to Linkerd using
+      OpenCensus and Jaeger.
+    digest: 0b89c845bd3a64e98d5554fcbfa7c3fcf54a0b6fbf9f753d98feba2d04df4169
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.13.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-jaeger
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    urls:
+    - https://helm.linkerd.io/edge/linkerd-jaeger-21.1.4.tgz
+    version: 21.1.4
+  - apiVersion: v1
     appVersion: edge-22.1.1
     created: "2022-01-07T01:36:25.21819267Z"
     dependencies:
@@ -8017,4 +9213,4 @@ entries:
     urls:
     - https://helm.linkerd.io/edge/linkerd2-multicluster-20.5.5.tgz
     version: 20.5.5
-generated: "2022-01-07T01:38:25.21231725Z"
+generated: "2022-01-07T01:40:25.21231725Z"
